@@ -70,6 +70,10 @@ h2 {
   opacity: .6; 
 }
 
+.carousel-inner img {
+  width: 3000px; 
+}
+
 .carousel-btn1 {
   background-color: transparent;
   border: 3px solid #fff;
