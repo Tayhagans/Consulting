@@ -18,6 +18,25 @@
   height: 1020px!important; 
 }
 
+.about-row{
+  margin-left:350px;  
+  margin-right:350px;
+}
+
+.bio-img {
+	margin-bottom: 30px; 
+}
+
+.hr_22 {
+	margin-left: 820px; 
+	margin-right: 820px; 
+}
+
+
+.hr_5 {
+	margin-left: 880px; 
+	margin-right: 880px; 
+}
 
 	}
 
