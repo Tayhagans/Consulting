@@ -1,0 +1,29 @@
+
+
+/*LAB TOP BREAK POINT*/
+
+
+
+@media screen and (min-width: 769px) {
+
+}
+
+
+/*************************Desk TOP Break Point **************************************/
+
+@media screen and (min-width: 1281px)  {
+
+	.carousel-inner img {
+  width: 3000px; 
+  height: 1020px!important; 
+}
+
+
+	}
+
+
+	/*************************Large Desk Top Break Point **************************************/
+
+@media screen and (min-width: 1920px) {
+  
+}
