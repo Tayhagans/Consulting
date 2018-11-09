@@ -118,6 +118,7 @@ h2 {
     box-shadow: 0 0 10px 1px #ff5733;
     margin-left: 520px;
     margin-right: 520px; 
+    margin-bottom: initial;
 }
 .hr_2:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
@@ -139,7 +140,7 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
 	padding: initial; 
  /* margin-top: 0!important;*/
   font-size: 50px; 
-  color: #000;  
+  color: #fff;  
 }
 
 .services-row-1 {
@@ -295,6 +296,7 @@ i {
 
 #monials h2 {
   margin-top: 60px; 
+  font-size: 30px;
 }
 
 .monials-row {
@@ -428,8 +430,9 @@ box-shadow:none !important;
    border: 0;
     height: 0; /* Firefox... */
     box-shadow: 0 0 10px 1px #ff5733;
-    margin-left: 580px;
-    margin-right: 580px; 
+    margin-left: 590px;
+    margin-right: 590px; 
+
 }
 
 /*.box1 {
@@ -523,11 +526,13 @@ hr {
 .copy {
 	font-size: initial;
   text-align: left;
-  margin-top: 30px;  
+  margin-top: 30px;
+  margin-left: 6px;   
 }
 
 .bottom {
     background-color: #f5f5f5; 
+    padding: initial;
 }
 
 .foot-row h3 {
