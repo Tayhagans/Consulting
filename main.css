@@ -166,7 +166,7 @@ color: #ff5733;
 }
 
 .indi-sec1 {
- background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");
+ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("rawpixel-658240-unsplash.jpg");
 background-size: cover; 
 background-repeat: no-repeat;
 }
@@ -183,11 +183,15 @@ background-repeat: no-repeat;
 }
 
 .indi-sec1 h2 {
-  margin-top: 40px; 
-  margin-bottom: 40px; 
+  margin-top: 70px; 
+/*  margin-bottom: 40px; */
   color: #fff; 
   font-size: 50px; 
 
+}
+
+.industry-row {
+  height: 190px; 
 }
 
 .hr_2 {
