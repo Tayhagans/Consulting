@@ -112,6 +112,7 @@ h2 {
 }
 
 .hr_2 {
+	display: block;
     border: 0;
     height: 0; /* Firefox... */
     box-shadow: 0 0 10px 1px #ff5733;
@@ -132,6 +133,21 @@ h2 {
 background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");
 /*  -webkit-filter: grayscale(65%);  Safari 6.0 - 9.0 
     filter: grayscale(65%);*/
+}
+
+.ser-head-1 {
+	padding: initial; 
+ /* margin-top: 0!important;*/
+  font-size: 50px; 
+  color: #000;  
+}
+
+.services-row-1 {
+ background-color: initial; 
+}
+
+.glyphicon-off{
+  margin-top: initial; 
 }
 
 #services h2 {
@@ -175,7 +191,13 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
     position: relative;*/
      
     /*opacity: .3; */
+.glyphicon {
+  margin-top: initial; 
+}
 
+.glyphicon-off{
+  margin-top: initial; 
+}
   
 
 .box h4 {
@@ -190,7 +212,7 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
   display: none;
   position: absolute;
   left: 0; top: 0; 
-  color: black;/*padding: 10px; */ 
+  color: #000;/*padding: 10px; */ 
 }
 
 .box:hover {
@@ -226,7 +248,8 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
 /************INDUSTRY SECTION***********/
 
 #industry h2 {
-  margin-top: 65px; 
+  margin-top: 65px;
+  color: #000;  
 }
 
 .industry-row {
@@ -241,6 +264,12 @@ i {
   color: #ff5733;   
 }
 
+.indi-sec1 {
+	color: #000!important; 
+	/*background-color: #000!important;*/
+	background-image: none; 
+}
+
 
 .indi-sec:hover {
   border-top: 1px solid #000;
@@ -253,6 +282,8 @@ i {
     -webkit-transform: scale(1.01);
 
 }
+
+
 
 /************MONIALS SECTION***********/
 #monials {
@@ -281,6 +312,10 @@ i {
 /*margin-bottom: 50px; */
   /*background-image:url("IMG_2095.JPG"); */
   background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG"); 
+}
+
+.carousel-indicators {
+  display: initial; 
 }
 
 /************FAQS SECTION***********/
@@ -389,6 +424,7 @@ box-shadow:none !important;
 }
 
 .hr_5 {
+	display: block;
    border: 0;
     height: 0; /* Firefox... */
     box-shadow: 0 0 10px 1px #ff5733;
@@ -485,6 +521,7 @@ hr {
 }
 
 .copy {
+	font-size: initial;
   text-align: left;
   margin-top: 30px;  
 }
@@ -495,7 +532,7 @@ hr {
 
 .foot-row h3 {
   letter-spacing: 3px; 
-   color: #b8b8b8; 
+  /* color: #b8b8b8;*/ 
 }
 
 .foot-row a {

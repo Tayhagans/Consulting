@@ -1,7 +1,7 @@
 .jumbotron {
 
     background-repeat: no-repeat; 
-   background-size: cover; 
+   background-size: contain; 
 
       color: #fff;
       font-family: Montserrat, sans-serif;
@@ -28,6 +28,12 @@ h2 {
 .navbar-toggle {
   float: none; 
 }
+
+iframe {
+  width:100%; 
+  height:350px; 
+}
+
 
 /************CAROUSEL****************/
 
@@ -77,10 +83,266 @@ h2 {
 
  
 #about h2 {
-  margin-top: 55px; 
+  margin-top: 25px; 
 }
 
-.bio-img {
-  
- width: auto; 
+.about-row{
+  margin-left:5px;  
+  margin-right:5px;
 }
+
+.bio-p {
+  text-align: justify;
+  margin-top: 20px; 
+  color: #b8b8b8; 
+}
+
+.hr_2 {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #ff5733;
+    margin-left: 130px;
+    margin-right: 130px; 
+}
+.hr_2:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+
+/************SERVICES SECTION***********/
+
+
+#services {
+  /*height: 800px; 
+*/ /* background-image: url("IMG_2095.JPG"); */
+background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");
+background-size: contain; 
+background-repeat: no-repeat;
+/*  -webkit-filter: grayscale(65%);  Safari 6.0 - 9.0 
+    filter: grayscale(65%);*/
+}
+
+.sub-p {
+  color: #b8b8b8; 
+}
+
+.services-row-1 {
+  background-color: #fff; 
+}
+
+.ser-head-1 {
+  padding: 60px 10px 60px 10px; 
+ /* margin-top: 100px;*/
+  font-size: 50px; 
+  color: #fff;  
+}
+
+.glyphicon {
+
+  margin-top: 30px; 
+}
+
+.glyphicon-off{
+  margin-top: 40px; 
+}
+
+
+.service_icons {
+/*       color: #33FFFF; */
+color: #ff5733;
+    /*  color:#ff5733;*/
+      font-size: 50px;
+  }
+
+.sub-service {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+/*********INDUSTRY**********/
+
+.indi-sec p {
+  color: #b8b8b8;  
+}
+
+.indi-sec1 {
+ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+.indi {
+  background-color: #fff; 
+}
+
+.fas {
+  margin-top: 40px; 
+  font-size: 40px;
+  margin-bottom: 20px; 
+  color: #ff5733;   
+}
+
+.indi-sec1 h2 {
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+  color: #fff; 
+  font-size: 50px; 
+
+}
+
+.hr_2 {
+  display: none;
+}
+
+/************MONIALS SECTION***********/
+#monials {
+  /*margin-top: 50px; */
+  /*margin-bottom: 50px; */
+  /*background-image:url("IMG_2095.JPG"); */
+  background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_5238.JPG"); 
+}
+
+#monials h2 {
+  margin-top: 20px; 
+}
+
+.monials-row {
+ /*  margin-left:60px;  
+  margin-right:60px;*/ 
+}
+
+.item h4 {
+/*  margin: 70px 0; */
+  font-size: italic;
+  font-weight: lighter;
+}
+
+.carousel-indicators {
+  display: none; 
+}
+
+/************CONTACT SECTION***********/
+
+#contact h2 {
+  margin-top: 30px; 
+}
+
+.form-submit {
+    background-color: transparent; 
+    color: #000; 
+    border: 1px solid #000; 
+    margin-top: 50px; 
+/*   border: none; */
+}
+
+.form-control, .form-group {
+  border-top: medium none; 
+  border-left: medium none; 
+  border-right: medium none; 
+  box-shadow:none;
+/*opacity: 0.6; */
+background-color: transparent;
+  
+}
+
+input, textarea {
+outline: none;
+box-shadow:none !important;
+
+}
+/*
+.hr_5 {
+   border: 0;
+    height: 0; /* Firefox... */
+/*    box-shadow: 0 0 10px 1px #ff5733;
+    margin-left: 80px;
+    margin-right: 80px; 
+}*/
+
+.btn {
+  border: 1px solid #e0e0e0;
+  border-radius: 0; 
+} 
+
+.hr_5 {
+  display: none; 
+}
+
+
+/******FOOTER****/
+
+.copy {
+font-size: smaller;
+color: #b8b8b8;
+}
+
+hr {
+  margin-left: 160px; 
+  margin-right: 160px; 
+  border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ff5733, #ff5733, #ff5733);
+}
+
+.fab {
+  color: #b8b8b8;  
+  margin: 10px; 
+}
+
+/*h3 {
+  color: grey; 
+}*/
+
+.p-foot {
+ color: #b8b8b8; 
+}
+
+.copy {
+  text-align: left;
+  margin-top: 30px;  
+}
+
+.bottom {
+    background-color: #f5f5f5; 
+}
+
+.foot-row h3 {
+  letter-spacing: 3px; 
+  /* color: #b8b8b8;*/ 
+}
+
+.foot-row a {
+  color: #b8b8b8; 
+}
+
+/*********SCROLL UP BOTTOM***********/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  /*background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;*/
+}
+
+#myBtn:hover {
+  font-size: 45px; 
+  cursor: pointer;
+  /*background-color: #555;*/
+}
+
+
+
+
+
+
+
