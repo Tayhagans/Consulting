@@ -692,6 +692,15 @@ hr {
 	margin-left: 100px; 
 }
 
+#services {
+	background-size: cover; 
+}
+
+.about-row {
+	margin-left: 320px; 
+	margin-right: 320px; 
+}
+
 	}
 
 
