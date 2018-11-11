@@ -8,7 +8,7 @@
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: portrait) {
 
-  
+
 }
 
 
@@ -557,6 +557,7 @@ h2 {
 
  
 #about h2 {
+	font-size: 50px; 
   margin-top: 55px; 
 }
 
@@ -861,6 +862,10 @@ i {
 
 }
 
+#contact h2 {
+	font-size: 50px; 
+}
+
 .contact-row {
  /* background-color: #f5f5f5; */
 }
@@ -976,7 +981,7 @@ hr {
 }
 
 .fab {
-  color: #b8b8b8;  
+ /* color: #b8b8b8;  */
   margin: 10px; 
 }
 
@@ -984,20 +989,26 @@ hr {
   color: grey; 
 }*/
 
-.p-foot {
+/*.p-foot {
  color: #b8b8b8; 
-}
+}*/
 
 .copy {
-	font-size: initial;
+	font-size: smaller;
   text-align: left;
   margin-top: 30px;
   margin-left: 6px;   
 }
 
 .bottom {
-    background-color: #f5f5f5; 
+   /* background-color: #f5f5f5; */
     padding: initial;
+}
+
+.bottom p {
+  color: #fff; 
+    /*background-color: #f5f5f5; */
+    padding: initial; 
 }
 
 .foot-row h3 {
@@ -1005,9 +1016,9 @@ hr {
   /* color: #b8b8b8;*/ 
 }
 
-.foot-row a {
+/*.foot-row a {
   color: #b8b8b8; 
-}
+}*/
 
 /*********SCROLL UP BOTTOM***********/
 
