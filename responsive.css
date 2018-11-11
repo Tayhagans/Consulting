@@ -412,14 +412,6 @@ p {
 @media screen and (max-width: 767px) {
 
 
-	.carousel-text {
-  position: absolute;
-  bottom: 20%!important; 
-  right: 50%; 
-  z-index: 20; 
-
-}
-
 }
 
 /*LAB TOP BREAK POINT*/
