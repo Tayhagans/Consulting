@@ -208,6 +208,9 @@ background-repeat: no-repeat;
 /*  display: none;*/
 }
 
+.hr_22 {
+  display: none; 
+}
 /************MONIALS SECTION***********/
 #monials {
   /*margin-top: 50px; */
