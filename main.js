@@ -1,3 +1,14 @@
+$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 3000);
+ 
+});
+
+
+
  $(document).ready(function() {
 
   $('.faq_question').click(function() {
@@ -31,3 +42,4 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
