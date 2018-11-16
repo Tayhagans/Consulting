@@ -442,7 +442,7 @@ margin-top: 45px;
 } 
 
 .about-row {
-	margin-left: 200px!important; 
+	margin-left: 200px!important;
 	margin-right: 200px!important; 
 }
 
@@ -1226,6 +1226,18 @@ hr {
 .about-row {
 	margin-left: 320px; 
 	margin-right: 320px; 
+}
+
+/********ABOUT*****************/
+
+.hr-head {
+	margin-right: 680px; 
+	margin-left: 680px; 
+}
+
+.about-row-desktop{
+  margin-left:500px;  
+  margin-right:500px;
 }
 
 	}
