@@ -1236,8 +1236,8 @@ hr {
 }
 
 .about-row-desktop{
-  margin-left:500px;  
-  margin-right:500px;
+  margin-left:500px!important;  
+  margin-right:500px!important;
 }
 
 	}
