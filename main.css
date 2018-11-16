@@ -289,10 +289,8 @@ background-repeat: no-repeat;
 }
 
 .monials-row {
- /*  margin-left:60px;  
-  margin-right:60px;*/ 
+    height: 150px;
 }
-
 .item h4 {
 /*  margin: 70px 0; */
   font-size: italic;

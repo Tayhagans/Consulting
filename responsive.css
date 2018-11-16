@@ -809,6 +809,7 @@ i {
 }
 
 .monials-row {
+	height: auto; 
    margin-left:60px;  
   margin-right:60px; 
 }
