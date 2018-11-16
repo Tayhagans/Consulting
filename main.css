@@ -84,6 +84,18 @@ right: 10%;
   opacity: 1;  
 }
 
+.glyphicon-chevron-left:before {
+  display: none; 
+}
+
+.glyphicon-chevron-right:before {
+  display: none; 
+}
+
+.carousel-indicators li {
+  display: none; 
+}
+
 /************ABOUT SECTION***********/
 
  
@@ -100,7 +112,9 @@ right: 10%;
 .bio-p {
   text-align: justify;
   margin-top: 20px; 
-  color: #b8b8b8; 
+  color: grey;
+
+
 }
 
 .hr_2 {
@@ -113,6 +127,15 @@ right: 10%;
 .hr_2:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
+
+.hr-head {
+    margin-right: 130px; 
+    margin-left: 130px; 
+  }
+
+  .p-1 {
+    text-align: justify;
+  }
 
 
 /************SERVICES SECTION***********/
@@ -129,7 +152,9 @@ background-repeat: no-repeat;
 }
 
 .sub-p {
+  
   color: #b8b8b8; 
+ 
 }
 
 .services-row-1 {
@@ -164,6 +189,39 @@ color: #ff5733;
 .sub-service {
   margin-top: 20px; 
   margin-bottom: 20px; 
+}
+
+.btn-ser {
+  
+  background-color: #ff5733;
+  margin-top : 15px;
+  margin-bottom: 15px; 
+
+ /* opacity: .8;*/ 
+  color: #fff; 
+}
+
+/***********PUBLICATIONS*******************/
+
+.pub-title {
+  letter-spacing: 5px; 
+}
+
+.hr-pub {
+  border-right: 1px solid #000!important; 
+  margin-right:0!important;
+  margin-left: 0!important; 
+  background-image: none;
+    height: initial;
+    background: initial;
+}
+
+.pub-p {
+  text-align:justify;
+}
+
+.pub-p a {
+  color: #000; 
 }
 
 /*********INDUSTRY**********/
@@ -211,6 +269,10 @@ background-repeat: no-repeat;
 .hr_22 {
   display: none; 
 }
+
+.hr-indus {
+  display: none;
+}
 /************MONIALS SECTION***********/
 #monials {
   /*margin-top: 50px; */
@@ -241,6 +303,54 @@ background-repeat: no-repeat;
   display: none; 
 }
 
+
+/*************FAQS************/
+
+#faqs {
+    font-family: 'Work Sans', sans-serif; 
+}
+
+#faqs h2 {
+  margin-top: 25px; 
+  font-size: 15px; 
+}
+
+ .faq_question {
+            margin: 0px;
+            padding: 20px; 
+            /*background-color: #f5f5f5; */
+            color: #333; 
+            /*padding: 0px 0px 5px 0px;*/
+            display: inline-block;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+        
+        .faq_answer_container {
+            display: none;
+            padding: 5px; 
+            background-color: #fff; 
+            color: #333; 
+
+        }
+
+        .tay {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          /*  border: 1px solid #ddd; */
+            border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+ /*   padding: 10px 15px; */
+}
+
+.hr-faqq {
+    margin-right: 150px; 
+    margin-left: 150px; 
+
+}
+
+
+
 /************CONTACT SECTION***********/
 
 #contact h2 {
@@ -252,7 +362,8 @@ background-repeat: no-repeat;
     background-color: transparent; 
     color: #000; 
     border: 1px solid #000; 
-    margin-top: 50px; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
 /*   border: none; */
 }
 
@@ -296,13 +407,18 @@ box-shadow:none !important;
     margin-bottom: 30px; 
 }
 
+.hr-con {
+  margin-right: 150px; 
+  margin-right: 150px; 
+}
+
 
 /******FOOTER****/
 
 .copy {
 font-size: x-small;
 color: #b8b8b8;
-text-align: center;
+text-align: left;
 margin-top: 20px; 
 }
 
@@ -329,17 +445,21 @@ hr {
 }
 
 .bottom {
+  height: 60px; 
+  /*background-color: #f5f5f5; */
     background-color: #FF6347; 
   
 }
 
 .bottom p {
   color: #fff; 
+  margin: 0; 
     /*background-color: #f5f5f5; */
     padding: 25px; 
 }
 
 .foot-row h3 {
+  color: #fff; 
   letter-spacing: 3px;
   font-family: 'Work Sans', sans-serif; 
   /* color: #b8b8b8;*/ 
@@ -347,6 +467,10 @@ hr {
 
 .foot-row a {
   color: #b8b8b8; 
+}
+
+.foot-row {
+  background-color: #222; 
 }
 
 .foot-i  {
