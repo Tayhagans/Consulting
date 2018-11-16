@@ -699,7 +699,7 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
   color: #000;
 font-size: 20px; 
 height:250px;
- overflow: scroll;
+/* overflow: scroll;*/
   /*padding: 10px; */ 
 }
 
