@@ -42,16 +42,15 @@ iframe {
 /************CAROUSEL****************/
 
 .carousel-text {
-/*  position: absolute;
-  bottom: 40%; 
-  right: 50%; 
+  position: absolute;
+  bottom: 5px;  
   z-index: 20; 
-*/
+
 right: 10%; 
 }
 
 .carousel-head {
- 
+ font-size: 22px; 
 }
 
 .carousel-p {
@@ -131,9 +130,12 @@ right: 10%;
 .hr-head {
     margin-right: 130px; 
     margin-left: 130px; 
+    margin-bottom: 15px; 
+    margin-top: 15px; 
   }
 
   .p-1 {
+    /*font-size: 15px; */
     text-align: justify;
   }
 
@@ -273,6 +275,43 @@ background-repeat: no-repeat;
 .hr-indus {
   display: none;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; 
+    color: #fff; 
+}
+
+.tint {
+  display: none; 
+}
+
+.wrap {
+  display: none; 
+ /* overflow: hidden;
+width: auto 
+  margin: 5px auto;*/
+}
+
+.white-space {
+
+}
 /************MONIALS SECTION***********/
 #monials {
   /*margin-top: 50px; */
@@ -280,6 +319,7 @@ background-repeat: no-repeat;
   /*background-image:url("IMG_2095.JPG"); */
   background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_5238.JPG"); 
 }
+
 
 #monials h2 {
   margin-top: 20px; 
@@ -354,6 +394,11 @@ background-repeat: no-repeat;
 #contact h2 {
   font-family: 'Work Sans', sans-serif;
   margin-top: 30px; 
+}
+
+#contact p {
+  margin-top: 20px; 
+
 }
 
 .form-submit {
@@ -443,21 +488,23 @@ hr {
 }
 
 .bottom {
+ /*  border-top: 1px solid #ff5733;*/
   height: 60px; 
-  /*background-color: #f5f5f5; */
+ /* background-color: #f5f5f5; */
     background-color: #FF6347; 
+    opacity: .8; 
   
 }
 
 .bottom p {
-  color: #fff; 
+  color: #fff!important; 
   margin: 0; 
-    /*background-color: #f5f5f5; */
+  /*  background-color: #f5f5f5; */
     padding: 25px; 
 }
 
 .foot-row h3 {
-  color: #fff; 
+  color: #b8b8b8; 
   letter-spacing: 3px;
   font-family: 'Work Sans', sans-serif; 
   /* color: #b8b8b8;*/ 
@@ -468,7 +515,9 @@ hr {
 }
 
 .foot-row {
-  background-color: #222; 
+   background-color: #f5f5f5; 
+  margin-top: 20px; 
+  /*background-color: #222;*/ 
 }
 
 .foot-i  {
