@@ -203,6 +203,43 @@ color: #ff5733;
   color: #fff; 
 }
 
+ .btn-ser-row a {
+  text-decoration: none!important; 
+}
+
+/*********SERVICES 2************/
+
+.tser:before { background: rgba(0, 128, 128, 0.4)!important; }
+
+.tser:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  transition: all .3s linear;
+}
+
+/*.centered-ser {
+  font-weight: lighter;
+
+ color: #ff5733!important;
+}*/
+
+.centered-ser {
+  font-size: 30px!important; 
+    position: absolute;
+    top: 60%!important;
+    left: 50%;
+    font-weight: initial;
+ color: #ff5733!important;}
+
+ .sec-2-h4 {
+  font-size: 16px; 
+ }
 /***********PUBLICATIONS*******************/
 
 .pub-title {
@@ -297,6 +334,7 @@ background-repeat: no-repeat;
     font-size: 20px; 
     color: #fff; 
 }
+
 
 .tint {
   display: none; 
