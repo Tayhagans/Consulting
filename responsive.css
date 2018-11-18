@@ -708,15 +708,16 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
   position: absolute;
   left: 0; top: 0; 
   color: #000;
-  font-weight: lighter;
-font-size: 17px; 
+  font-weight: lighter!important;
+font-size: 20px; 
 height:250px;
+line-height: 25px; 
 /* overflow: scroll;*/
   /*padding: 10px; */ 
 }
 
 .btn-ser {
-	margin-top: 110px; 
+	margin-top: 120px; 
 	background-color: #ff5733;
 	opacity: .8; 
 	color: #fff; 
@@ -800,6 +801,7 @@ height:250px;
 
 
 .hr-indus {
+	display: block;
 	margin-left: 520px; 
 	margin-right: 520px; 
 }
@@ -967,7 +969,10 @@ width: auto
   margin-right:60px; 
 }
 
-
+.hr-faqq {
+	margin-left: 380px; 
+	margin-right: 380px; 
+}
 
 .faqsP {
   margin-bottom: 20px;
