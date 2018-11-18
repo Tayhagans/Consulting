@@ -223,11 +223,9 @@ color: #ff5733;
   transition: all .3s linear;
 }
 
-/*.centered-ser {
-  font-weight: lighter;
-
- color: #ff5733!important;
-}*/
+.ser-div {
+  padding: 0; 
+}
 
 .centered-ser {
   font-size: 30px!important; 
@@ -235,7 +233,7 @@ color: #ff5733;
     top: 60%!important;
     left: 50%;
     font-weight: initial;
- color: #ff5733!important;}
+ color: #fff!important;}
 
  .sec-2-h4 {
   font-size: 16px; 
