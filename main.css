@@ -116,6 +116,11 @@ right: 10%;
 
 }
 
+.bio-img {
+  height: 350px; 
+  width: 305px; 
+}
+
 .hr_2 {
     border: 0;
     height: 0; /* Firefox... */

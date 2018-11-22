@@ -710,14 +710,14 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
   color: #000;
   font-weight: lighter!important;
 font-size: 20px; 
-height:250px;
-line-height: 25px; 
+/*height:250px*/;
+line-height: 55px; 
 /* overflow: scroll;*/
   /*padding: 10px; */ 
 }
 
 .btn-ser {
-	margin-top: 120px; 
+	margin-top: 230px; 
 	background-color: #ff5733;
 	opacity: .8; 
 	color: #fff; 
