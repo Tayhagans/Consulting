@@ -807,8 +807,12 @@ line-height: 55px;
 
 .p-head {
 	font-size: 20px; 
+  text-align: center; 
 }
 
+.p-head-sub {
+  text-align: center; 
+}
 .centered-ser {
 	font-size: 45px!important; 
 }
@@ -1454,6 +1458,26 @@ hr {
 #contact_1 {
   padding-left: 0; 
   padding-right: 0; 
+}
+
+.new-service {
+  height: 600px; 
+}
+
+.centered-ser {
+  font-size: 65px!important
+}
+
+.sec-2-h4 {
+  font-size: 20px; 
+}
+
+.p-head {
+  font-size: 25px; 
+}
+
+.p-head-sub {
+  font-size: 17px; 
 }
 
 /*********CONTACT**************/
