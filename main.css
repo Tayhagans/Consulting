@@ -369,6 +369,9 @@ width: auto
   background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("IMG_5238.JPG");  
 }
 
+.item h4 {
+  font-style: italic;
+}
 
 #monials h2 {
   margin-top: 20px; 

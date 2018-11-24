@@ -1371,6 +1371,14 @@ hr {
   height: 1020px!important; 
 }
 
+.carousel-head {
+  font-size: 80px; 
+}
+
+.carousel-p {
+  font-size: 30px; 
+}
+
 .about-row{
   margin-left:160px;  
   margin-right:160px;
@@ -1441,12 +1449,20 @@ hr {
 	margin-right: 300px; 
 }
 
+/********SERVICES 2*****************/
+
+#contact_1 {
+  padding-left: 0; 
+  padding-right: 0; 
+}
+
 /*********CONTACT**************/
 
 #contact {
   padding-left: 0; 
   padding-right: 0; 
 }
+
 
 .contact-row {
 	margin-right: 0; 
@@ -1468,6 +1484,14 @@ hr {
 .hr-indus {
   margin-left: 820px; 
   margin-right: 820px; 
+}
+
+
+/********INDUSTRY*****************/
+
+.hr-faqq {
+  margin-right: 570px; 
+  margin-left: 570px; 
 }
 
 	}
