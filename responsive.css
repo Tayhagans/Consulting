@@ -506,9 +506,16 @@ p {
       font-family: Montserrat, sans-serif;
   }
 
+  .navbar-nav li a:hover  {
+    color: #ff5733; 
+  }
+
+
+
   .navbar {
       margin-bottom: 0;
-      background-color: #fff;
+      background-color: #000;
+      opacity: .7; 
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -525,9 +532,17 @@ p {
     background-size:cover; 
 }
 
+
+/*.navbar.solid {
+  background-color: #fff; 
+  opacity: .4; 
+}*/
+
+
 h2 {
   letter-spacing: 10px; 
 }
+
 
 /************CAROUSEL****************/
 
@@ -625,7 +640,8 @@ h2 {
 #services {
   /*height: 800px; 
 */ /* background-image: url("IMG_2095.JPG"); */
-background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");
+/*background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("IMG_2095.JPG");*/
+/*background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG");*/
 /*  -webkit-filter: grayscale(65%);  Safari 6.0 - 9.0 
     filter: grayscale(65%);*/
 }
@@ -710,6 +726,7 @@ background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), u
   color: #000;
   font-weight: lighter!important;
 font-size: 20px; 
+margin-top: 0!important; 
 /*height:250px*/;
 line-height: 55px; 
 /* overflow: scroll;*/
@@ -796,7 +813,24 @@ line-height: 55px;
 	font-size: 45px!important; 
 }
 
+#contact_1 {
+  margin-top: 20px; 
+}
 
+#contact_1 h2 {
+  color: #fff; 
+}
+
+#contact_1 p {
+  color: #fff; 
+}
+
+/**********CONSULTATION************/
+.consul-row{
+  background-color: #000;  
+  margin-top: 40px; 
+  height: 200px; 
+}
 /************INDUSTRY SECTION***********/
 
 
@@ -877,7 +911,9 @@ i {
 
 
 
-.t6:before { background: rgba(255,102,0, 0.6)!important; }
+/*.t6:before { background: rgba(255,102,0, 0.6)!important; }*/
+.t6:before { background: rgba(105,105,105, 0.8)!important; }
+
 
 .tint:before {
   content: "";
@@ -923,7 +959,8 @@ width: auto
   margin-top: 50px; 
   /*margin-bottom: 50px; */
   /*background-image:url("IMG_2095.JPG"); */
-  background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_5238.JPG"); 
+  /* background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("IMG_5238.JPG"); */
+ /* background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_5238.JPG"); */
 }
 
 #monials h2 {
@@ -989,17 +1026,18 @@ width: auto
 }
 /*.faq_question {
   margin-top: 10px; 
-/*  margin: 0px;*/
-/*  padding: 0px 0px 5px 0px;
+ margin: 0px;
+  padding: 0px 0px 5px 0px;
   display: inline-block;
   cursor: pointer;
-  font-weight: bold;*/
+  font-weight: bold;
 
-
+}*/
 /*.faq_answer_container {
   height: 0px;
   overflow: hidden;
   padding: 0px;
+
 }*/
 
 .hr_3 {
@@ -1027,24 +1065,36 @@ width: auto
 /************CONTACT SECTION***********/
 
 .hr-con {
-	margin-left: 590px; 
-	margin-right: 590px; 
+  display: none; 
+	/*margin-left: 590px; 
+	margin-right: 590px*/
 }
 
 #contact {
  /* background: linear-gradient( rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6) ), url("IMG_2095.JPG"); */
-  margin:0!important; 
+ margin-top: 230px; 
+ /* margin:0!important; */
   display: contain;
 
 }
 
+.contact-row {
+  /*background-color: #a8a8a8; */
+  background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("business-chairs-contemporary-416320.jpg");
+  background-size: cover;
+  /*opacity: .6; */
+}
+
 #contact p {
+  color: #fff; 
   /*margin-top: 20px; */
   font-size: 16px; 
 }
 
 #contact h2 {
-	font-size: 50px; 
+  font-weight: lighter!important;
+	font-size: 50px;
+  color: #fff;  
 }
 
 .contact-row {
@@ -1071,6 +1121,7 @@ background-color: transparent;
 }
 
 input, textarea {
+
 outline: none;
 box-shadow:none !important;
 
@@ -1086,6 +1137,15 @@ box-shadow:none !important;
 
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff!important;
+    font-weight: lighter;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
 /*.box1 {
   display: none; 
 }
@@ -1112,14 +1172,17 @@ width: 347px;
 
 .submit-but {
   letter-spacing: 5px; 
-   color: #ff5733;
+  /* color: #ff5733;*/
 
 }
 
 .btn {
   border: 1px solid #e0e0e0;
   border-radius: 0; 
+
 } 
+
+
 /************FOOTER SECTION***********/
 /*
 .foot2 {
@@ -1345,7 +1408,7 @@ hr {
 	margin-left: 60px; 
 }
 
-.sub-p {
+.sub-p {  
 	margin-right: 100px; 
 	margin-left: 100px; 
 }
