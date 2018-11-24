@@ -1425,8 +1425,8 @@ hr {
 /********ABOUT*****************/
 
 .hr-head {
-	margin-right: 680px; 
-	margin-left: 680px; 
+	margin-right: 390px; 
+	margin-left: 390px; 
 }
 
 .about-row-desktop{
@@ -1437,11 +1437,16 @@ hr {
 /*********PUBLICATIONS**************/
 
 .pub-row {
-	margin-left: 150px; 
-	margin-right: 150px; 
+	margin-left: 300px; 
+	margin-right: 300px; 
 }
 
 /*********CONTACT**************/
+
+#contact {
+  padding-left: 0; 
+  padding-right: 0; 
+}
 
 .contact-row {
 	margin-right: 0; 
@@ -1451,6 +1456,18 @@ hr {
 .hr-con {
 	margin-right: 890px; 
 	margin-left: 890px; 
+}
+
+/********INDUSTRY*****************/
+
+.photo-row {
+  margin-right: 400px; 
+  margin-left: 400px;  
+}
+
+.hr-indus {
+  margin-left: 820px; 
+  margin-right: 820px; 
 }
 
 	}
