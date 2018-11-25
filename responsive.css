@@ -9,8 +9,8 @@
   and (orientation: portrait) {
 
 
-}
 
+}
 
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -28,15 +28,48 @@
   		top: 100px; 
   	}
 
+    .carousel-head {
+      font-size: 35px; 
+    }
+
   	.about-row {
   		margin-left: 60px; 
   		margin-right: 60px; 
   	}
 
+    .about-photo {
+  
+    float: left; }
+
+    .p-1 {
+      text-align: center; 
+    }
+
+    .bio-p {
+      text-align: left; 
+      margin-top: 0; 
+    }
+
+    .bio-img {
+      width: 300px; 
+      height: 300px; 
+      margin-right: 7px; 
+    }
+
   	.sub-p {
   		margin-left: 30px; 
   		margin-right: 30px; 
   	}
+
+    .pub-p {
+      margin-left: 60px; 
+      margin-right: 60px; 
+    }
+
+    .hr-head {
+      margin-right: 220px; 
+      margin-left: 220px; 
+    }
 
   	.hr_2 {
   		display: none; 
@@ -51,12 +84,21 @@
   		margin-bottom: 40px; 
   	}
 
+    hr {
+      margin-right: 300px; 
+      margin-left: 300px; 
+    }
+
+.hr-faqq {
+  margin-right: 300px; 
+  margin-left: 300px; 
+}
   	.hr_5 {
   		margin-right: 290px; 
   		margin-left: 290px; 
   	}
 
-  	hr {
+  	.hr-con {
   		margin-right: 300px; 
   		margin-left: 300px; 
   	}
@@ -65,6 +107,10 @@
   		float: right; 
   	}
 
+.row3 {
+  margin-left: 100px; 
+  margin-right: 100px; 
+}
 
 }
 
@@ -81,6 +127,32 @@
   		float: right; 
   	}
 
+    .about-photo {
+  
+    float: left; }
+
+    .p-1 {
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+
+    .bio-p {
+      text-align: left; 
+      margin-top: 0; 
+    }
+
+    .bio-img {
+      width: 300px; 
+      height: 300px; 
+      margin-right: 7px; 
+    }
+
+
+    .pub-p {
+      margin-left: 60px; 
+      margin-right: 60px; 
+    }
+
   	  	.about-row {
   		margin-left: 90px; 
   		margin-right: 90px; 
@@ -91,9 +163,25 @@
   		margin-right: 30px; 
   	}
 
+    .hr-head {
+      margin-right: 300px; 
+      margin-left: 300px; 
+    }
+
+
   	 	.hr_2 {
   		display: none; 
   	}
+
+    .hr-faqq {
+  margin-right: 320px; 
+  margin-left: 320px; 
+}
+
+.hr-con {
+      margin-right: 320px; 
+      margin-left: 320px; 
+    }
 
   	.indi-sec p {
   		margin-left: 30px; 
@@ -133,6 +221,7 @@
   margin-left:5px!important;  
   margin-right:5px!important;
 }
+
 
 .carousel-inner img {
 display: cover; 
@@ -202,6 +291,10 @@ p {
 	text-align: center!important; 
 }
 
+.p-1 {
+  font-size: 13px!important; 
+}
+
 .bio-p {
 	text-align: justify!important;
 }
@@ -212,6 +305,15 @@ p {
 
 .sub-p {
 	top: -80px!important; 
+}
+
+.photo-row {
+  margin-left: 0!important; 
+  margin-right: 0!important; 
+}
+
+#faqs h2 {
+  font-size: 18px!important; 
 }
 
 }
@@ -240,6 +342,31 @@ p {
 .carousel-btn {
 	padding: 15px; 
 
+}
+
+.about-row {
+  margin-right: 150px; 
+  margin-left: 150px; 
+}
+
+.btn-ser1 {
+  margin-top: 25px; 
+}
+
+.hr-head {
+  margin-right: 170px; 
+  margin-left: 170px; 
+}
+
+.hr-faqq {
+  margin-right: 200px; 
+  margin-left: 200px; 
+}
+
+
+.hr-con {
+  margin-left: 330px; 
+  margin-right: 330px; 
 }
 
 .hr_2 {
@@ -297,6 +424,39 @@ display: cover;
   font-size: 15px; 
   border: none; 
   opacity: .6; 
+}
+
+.about-row {
+  margin-right: 95px!important; 
+  margin-left: 95px!important; 
+}
+
+.hr-head {
+  margin-left: 350px!important; 
+  margin-right: 350px!important; 
+}
+
+.hr-indus {
+  margin-left: 380px!important; 
+  margin-right: 380px!important; 
+}
+
+.hr-faqq {
+  margin-right: 280px!important; 
+  margin-left: 280px!important; 
+}
+
+#faqs h2 {
+  font-size: 28px!important; 
+}
+
+.btn-ser {
+  margin-top: 250px!important; 
+}
+
+.photo-row {
+  margin-right: 100px!important; 
+  margin-left: 100px!important; 
 }
 
 #about h2 {
@@ -375,6 +535,30 @@ p {
  
 }
 
+.about-row {
+  margin-right: 150px!important; 
+  margin-left: 150px!important; 
+}
+
+.photo-row {
+  margin-left: 100px!important; 
+  margin-right: 100px!important; 
+}
+
+#faqs h2 {
+  font-size: 28px!important; 
+}
+
+.hr-faqq {
+  margin-right: 280px!important; 
+  margin-left: 280px!important; 
+}
+
+.hr-indus {
+  margin-left: 370px!important; 
+  margin-right: 370px!important; 
+}
+
 .bio-img {
 	margin-bottom: 0!important; 
 }
@@ -396,8 +580,8 @@ p {
   and (-webkit-min-device-pixel-ratio: 2) {
 
   	.about-row {
-  		margin-left: 20px!important; 
-  		margin-right: 20px!important; 
+  		margin-left: 250px!important; 
+  		margin-right: 250px!important; 
   	}
 
   	.sub-p {
@@ -442,8 +626,8 @@ margin-top: 45px;
 } 
 
 .about-row {
-	margin-left: 250px!important;
-	margin-right: 250px!important; 
+	margin-left: 250px;
+	margin-right: 250px; 
 }
 
 
@@ -593,10 +777,10 @@ h2 {
   margin-top: 55px; 
 }
 
-.about-row{
+/*.about-row{
   margin-left:60px;  
   margin-right:60px;
-}
+}*/
 
 .p-1 {
 	text-align: center!important;

@@ -24,7 +24,9 @@
       font-family: Montserrat, sans-serif;
 
 }
-
+.navbar-brand {
+  font-size: 15px!important; 
+}
 
 h2 {
   letter-spacing: 5px; 
@@ -122,7 +124,7 @@ right: 10%;
 
 .bio-img {
   height: 350px; 
-  width: 305px; 
+  width: fit-content;
 }
 
 .hr_2 {
@@ -561,7 +563,7 @@ hr {
   height: 60px; 
  /* background-color: #f5f5f5; */
     background-color: #FF6347; 
-    opacity: .8; 
+   /* opacity: .8; */
   
 }
 
