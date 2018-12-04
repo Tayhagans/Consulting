@@ -32,14 +32,26 @@
       font-size: 35px; 
     }
 
-  	.about-row {
+      .bio-img {
+      width: 300px; 
+      height: 300px; 
+      margin-right: 7px; 
+    }
+
+  /*	.about-row {
   		margin-left: 60px; 
   		margin-right: 60px; 
-  	}
+  	}*/
 
     .about-photo {
   
     float: left; }
+
+      .art-logo {
+/*    margin-bottom: 10px; */
+    margin-right: 210px; 
+    margin-left: 210px; 
+  }
 
     .p-1 {
       text-align: center; 
@@ -50,11 +62,7 @@
       margin-top: 0; 
     }
 
-    .bio-img {
-      width: 300px; 
-      height: 300px; 
-      margin-right: 7px; 
-    }
+  
 
   	.sub-p {
   		margin-left: 30px; 
@@ -202,6 +210,12 @@
   		margin-left: 330px; 
   	}
 
+      .art-logo {
+/*    margin-bottom: 10px; */
+    margin-right: 250px; 
+    margin-left: 250px; 
+  }
+
 
 }
 
@@ -329,6 +343,11 @@ p {
 
 .carousel-caption {
 	padding-bottom: 80px; 
+}
+
+.art-logo {
+  margin-right: 0; 
+  margin-left: 0; 
 }
 
 .carousel-head {
@@ -717,6 +736,12 @@ p {
 }
 
 
+
+
+
+
+
+
 /*.navbar.solid {
   background-color: #fff; 
   opacity: .4; 
@@ -816,6 +841,23 @@ h2 {
 .hr_2:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
+
+.article-pics img {
+  width: auto; 
+  height: 50px; 
+}
+
+
+.logo11 {
+  margin-bottom: 20px; 
+  margin-top: 0; 
+}
+
+ .art-logo {
+    margin-bottom: initial; 
+    margin-right: initial; 
+    margin-left: initial; 
+  }
 
 
 /************SERVICES SECTION***********/
@@ -1626,8 +1668,8 @@ hr {
 }
 
 .about-row-desktop{
-  margin-left:500px!important;  
-  margin-right:500px!important;
+  margin-left:500px;  
+  margin-right:500px;
 }
 
 /*********PUBLICATIONS**************/
