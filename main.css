@@ -158,9 +158,51 @@ right: 10%;
 
  .art{
 margin-top: 10px; 
-margin-bottom: 20px; 
+margin-bottom: 20px;
 }
 
+.logo-holder {
+  position: relative;
+/*  width: 992px; 
+  height: 125px; */
+}
+
+.logo-holder img, .logo-holder.text {
+  transition: opacity 0.5s ease-in-out; 
+} 
+
+.logo-holder .text {
+  position:absolute; top: 0; left: 30%; opacity: 0; 
+}
+
+.logo-holder:hover img {opacity: 0;}
+.logo-holder:hover .text {
+  opacity: 1; 
+}
+
+.art-name{
+  width: 120px; 
+  text-overflow: ellipsis;
+  word-break: break-all;
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin-bottom: 12px; 
+}
+
+.art-name:hover {
+  overflow: visible;
+  white-space: normal;
+  height: auto; 
+}
+
+.art-name a {
+  text-decoration: none;
+ color: #000; 
+}
+
+.art-name a:hover {
+  letter-spacing: 1px; 
+}
 
 
 /************SERVICES SECTION***********/
