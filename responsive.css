@@ -470,7 +470,7 @@ display: cover;
 }
 
 .btn-ser {
-  margin-top: 250px!important; 
+  /*margin-top: 250px!important; */
 }
 
 .photo-row {
@@ -878,7 +878,13 @@ h2 {
 	padding: initial; 
  /* margin-top: 0!important;*/
   font-size: 50px; 
-  color: #fff;  
+   
+}
+
+
+.hr-ser {
+  margin-left: 590px;
+  margin-right: 590px; 
 }
 
 .services-row-1 {
@@ -894,12 +900,16 @@ h2 {
 }
 
 .ser-head {
-  margin-bottom: 40px; 
+ /* margin-bottom: 40px; */
 }
 
 .services-row {
   margin-left:60px;  
   margin-right:60px;
+}
+
+.imgServices {
+  margin-bottom: initial; 
 }
 
 
@@ -961,9 +971,13 @@ line-height: 55px;
   /*padding: 10px; */ 
 }
 
+
 .btn-ser {
-	margin-top: 230px; 
-	background-color: #ff5733;
+	margin-top: 50px;
+  background-color: transparent;
+  border: 1px solid #ff5733!important;
+  border-radius: 3px!important;   
+/*	background-color: #ff5733;*/
 	opacity: .8; 
 	color: #fff; 
 	/*border-radius: 10px!important; */
@@ -984,7 +998,7 @@ line-height: 55px;
 
 	background-color: #ff5733;
 	opacity: .8;
-	letter-spacing: 3px;  
+	/*letter-spacing: 3px;  */
 	color: #fff; 
 }
 
@@ -1002,7 +1016,7 @@ line-height: 55px;
 .box:hover .sub-p{
 
   display: block;
-  color: #fff;
+  color: #000;
   font-weight: bolder; 
   margin-top: 40px; 
 
@@ -1036,6 +1050,117 @@ line-height: 55px;
 .p-head {
 	font-size: 20px; 
   text-align: center; 
+}
+
+.service-pho {
+  height: 100%;
+  width: 100%; 
+}
+
+.back  {
+  margin-top: 20px; 
+}
+
+.ser-div {
+  margin-top: 90px; 
+}
+
+.ser-div h3 {
+  font-size: 30px; 
+  letter-spacing: 10px; 
+  margin-bottom: 20px; 
+}
+
+.ser-div h4 {
+  font-weight: lighter;
+}
+
+.row-equal{
+  display: flex!important; /* equal height of the children */
+}
+
+.ser-equal {
+
+  flex: 1!important; /* additionally, equal width */
+}
+
+.ser-equal-1 {
+  background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("adult-analysis-brainstorming-1081225.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.ser-equal-2 {
+
+  background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("bio.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.ser-contain  {
+  padding-left: 0; 
+
+
+}
+
+.ser-contain-1 {
+  padding-left: 0; 
+}
+
+.how-to-box {
+  display: block;
+    overflow: hidden;
+    margin: 0 0 26px;
+} 
+
+.how-to-box .icon {
+    float: left;
+    width: 50px;
+}
+
+*, *:before, *:after {
+    
+    box-sizing: border-box;
+  }
+
+  .how-to-box .content .name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin: 0 0 3px;
+}
+
+.how-to-box .content .text {
+    color: #000;
+    line-height: 24px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+  .how-to-box .icon span {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100px;
+    color: #ff5733;
+    display: block;
+    font-size: 35px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+
+.how-to-box .content {
+    overflow: hidden;
+    padding-left: 24px;
+}
+
+
+.sec-2-h4 {
+  margin-bottom: 50px; 
 }
 
 .p-head-sub {
@@ -1159,7 +1284,20 @@ i {
   transition: all .3s linear;
 }
 
-.tint:hover:before { background: none!important; }
+.tint:before:hover { 
+   display: none!important;
+/*content: "dfdsfdsfdfdff"!important;*/
+/*  background: none!important; 
+*/
+}
+
+
+.p-text {
+  font-size: 16px!important; 
+  color: #fff; 
+}
+
+
 
 .tint-div {
 	padding: 0; 
@@ -1188,6 +1326,11 @@ width: auto
 
 /************MONIALS SECTION***********/
 #monials {
+ background: #ADA996;
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
+
+
   margin-top: 50px; 
   /*margin-bottom: 50px; */
   /*background-image:url("IMG_2095.JPG"); */
@@ -1202,8 +1345,8 @@ width: auto
 
 .monials-row {
 	height: auto; 
-   margin-left:60px;  
-  margin-right:60px; 
+ /*  margin-left:60px;  
+  margin-right:60px; */
 }
 
 .item h4 {
@@ -1215,7 +1358,7 @@ width: auto
 #testi {
 /*margin-bottom: 50px; */
   /*background-image:url("IMG_2095.JPG"); */
-  background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG"); 
+/*  background: linear-gradient( rgba(0, 128, 128, 0.4), rgba(0, 128, 128, 0.4) ), url("IMG_2095.JPG"); */
 }
 
 .carousel-indicators {
@@ -1312,8 +1455,12 @@ width: auto
 
 .contact-row {
   /*background-color: #a8a8a8; */
-  background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("business-chairs-contemporary-416320.jpg");
-  background-size: cover;
+ /* background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("drew-beamer-692664-unsplash.jpg");
+  background-size: fill;*/
+  background: #ADA996;
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
+
   /*opacity: .6; */
 }
 
@@ -1698,6 +1845,7 @@ hr {
 
 .sec-2-h4 {
   font-size: 20px; 
+
 }
 
 .p-head {
