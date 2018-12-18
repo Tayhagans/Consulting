@@ -139,15 +139,16 @@ right: 10%;
 }
 
 .hr-head {
-    margin-right: 130px; 
-    margin-left: 130px; 
+    margin-right: 100px; 
+    margin-left: 100px; 
     margin-bottom: 15px; 
     margin-top: 15px; 
   }
 
   .p-1 {
     /*font-size: 15px; */
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    text-align: justify; 
   }
 
   .art-logo {
@@ -272,6 +273,11 @@ color: #ff5733;
 
 .mar-about {
   margin-right: 40px; 
+  margin-left: 40px; 
+}
+
+.mar-about-1 {
+    margin-right: 40px; 
   margin-left: 40px; 
 }
 
@@ -612,8 +618,8 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 }
 
 .hr-faqq {
-    margin-right: 150px; 
-    margin-left: 150px; 
+    margin-right: 160px; 
+    margin-left: 160px; 
 
 }
 

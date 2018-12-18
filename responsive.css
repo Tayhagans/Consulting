@@ -820,13 +820,18 @@ h2 {
   margin-left: initial; 
 }
 
+.mar-about-1 {
+    margin-right: initial; 
+  margin-left: initial; 
+}
+
 .pub-row {
 	margin-left: 80px; 
 	margin-right: 80px; 
 }
 
 .bio-img {
-	width: 300px;
+	width: 200px;
   margin-top: 0!important; 
   height: 300px; 
 }
