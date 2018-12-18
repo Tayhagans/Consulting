@@ -1088,6 +1088,8 @@ line-height: 55px;
   background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("adult-analysis-brainstorming-1081225.jpg"); 
   background-size: cover;
   background-repeat: no-repeat; 
+  height: initial;
+  margin-bottom: initial;
 }
 
 .ser-equal-2 {
@@ -1095,8 +1097,15 @@ line-height: 55px;
   background: linear-gradient( rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8) ), url("bio.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
+   height: initial; 
+ margin-bottom: initial; 
  
 }
+
+.w-t {
+  margin-top: initial; 
+}
+
 .ser-contain  {
   padding-left: 0; 
 
@@ -1180,6 +1189,12 @@ line-height: 55px;
 
 #contact_1 p {
   color: #fff; 
+}
+
+/**********COACHING************/
+
+.ser-div h3 {
+  margin-top: initial; 
 }
 
 /**********CONSULTATION************/
