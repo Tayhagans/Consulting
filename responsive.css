@@ -812,6 +812,12 @@ h2 {
 .p-1 {
 	text-align: center!important;
 	font-size: 20px; 
+  margin-bottom: initial;
+}
+
+.mar-about {
+   margin-right: initial; 
+  margin-left: initial; 
 }
 
 .pub-row {
@@ -821,7 +827,7 @@ h2 {
 
 .bio-img {
 	width: 300px;
-  margin-top: 45px; 
+  margin-top: 0!important; 
   height: 300px; 
 }
 

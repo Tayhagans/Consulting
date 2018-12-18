@@ -123,7 +123,7 @@ right: 10%;
 }
 
 .bio-img {
-  height: 350px; 
+  height: 250px; 
   width: fit-content;
 }
 
@@ -147,7 +147,7 @@ right: 10%;
 
   .p-1 {
     /*font-size: 15px; */
-    text-align: justify;
+    margin-bottom: 20px; 
   }
 
   .art-logo {
@@ -263,6 +263,16 @@ color: #ff5733;
 .sub-service {
   margin-top: 20px; 
   margin-bottom: 20px; 
+}
+
+.biosectionpic {
+  /*margin-right: 40px; 
+  margin-left: 40px; 
+}*/}
+
+.mar-about {
+  margin-right: 40px; 
+  margin-left: 40px; 
 }
 
 .btn-ser {
