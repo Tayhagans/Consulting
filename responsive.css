@@ -811,7 +811,7 @@ h2 {
 
 .p-1 {
 	text-align: center!important;
-	font-size: 20px; 
+	font-size: 16px; 
   margin-bottom: initial;
 }
 
@@ -860,6 +860,14 @@ h2 {
   height: 50px; 
 }
 
+.logo-holder-3 {
+padding-right: 0; 
+}
+
+.logo-holder-2 {
+  padding-left: 0; 
+}
+
 
 .logo11 {
   margin-bottom: 30px; 
@@ -870,6 +878,10 @@ h2 {
     margin-bottom: initial; 
     margin-right: initial; 
     margin-left: initial; 
+  }
+
+  .art-logo-p {
+    padding: 3px; 
   }
 
 
@@ -1391,6 +1403,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
   margin: 70px 0; 
   font-size: italic;
   font-weight: lighter;
+  font-size: xx-large;
 }
 
 #testi {
@@ -1406,7 +1419,16 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 /************FAQS SECTION***********/
 
 #faqs {
-  height: 300px; 
+  height: 330px; 
+}
+
+.faq_question {
+  font-size: large;
+}
+
+.faq_answer {
+  font-size: larger; 
+  font-weight: lighter;
 }
 
 #faqs h2 {
