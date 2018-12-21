@@ -586,7 +586,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 #faqs h2 {
   margin-top: 25px; 
-  font-size: 15px; 
+  font-size: 13px; 
 }
 
  .faq_question {
@@ -762,6 +762,7 @@ hr {
   margin: 0; 
   /*  background-color: #f5f5f5; */
     padding: 25px; 
+    padding-left: 0!important; 
 }
 
 .foot-row h3 {

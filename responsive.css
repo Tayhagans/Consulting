@@ -402,6 +402,33 @@ p {
 	margin-left: 315px; 
 }
 
+.p-1 {
+  text-align: center; 
+}
+
+.bio-img {
+  float: left; 
+  width: auto; 
+}
+
+.mar-about-1 {
+  margin-right: initial;
+  margin-left: initial;
+}
+
+.tint-div {
+  width: initial;
+}
+
+.ser-equal {
+  width: initial;
+  float: initial;
+}
+
+.sec-2-h4 {
+  margin-top: 30px; 
+}
+
 }
 
 /* Landscape */
@@ -511,6 +538,10 @@ p {
 
 .bio-p {
 	text-align: justify!important;
+}
+
+.text {
+  text-align: left!important; 
 }
 
 }
@@ -1394,7 +1425,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 #monials h2 {
   margin-top: 60px; 
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .monials-row {
@@ -1437,7 +1468,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 #faqs h2 {
   margin-top: 50px; 
-  font-size: 40px; 
+  font-size: 50px; 
 }
 
 .faqs-row {
@@ -1446,8 +1477,8 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 }
 
 .hr-faqq {
-	margin-left: 380px; 
-	margin-right: 380px; 
+	margin-left: 590px; 
+	margin-right: 590px; 
 }
 
 .faqsP {
