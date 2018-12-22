@@ -893,6 +893,16 @@ h2 {
 
 .logo-holder-3 {
 padding-right: 0; 
+padding-left: 0; 
+}
+
+.logo-padding {
+  padding-left: 0; 
+  padding-right: 2px; 
+}
+
+.padding-logo {
+  padding-left: 0; 
 }
 
 .logo-holder-2 {
@@ -900,7 +910,9 @@ padding-right: 0;
 }
 
 .art {
-  height: 55px; 
+  height: 55px;
+  padding: 0; 
+  padding-right:10px;   
 }
 
 

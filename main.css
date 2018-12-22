@@ -28,6 +28,11 @@
   font-size: 15px!important; 
 }
 
+/*.logo-pic {
+  height: 20px; 
+  width: 20px; 
+}*/
+
 h2 {
   letter-spacing: 5px; 
   margin-top: 5px; 
@@ -586,7 +591,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 #faqs h2 {
   margin-top: 25px; 
-  font-size: 13px; 
+  font-size: 20px; 
 }
 
  .faq_question {
