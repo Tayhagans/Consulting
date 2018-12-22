@@ -1872,8 +1872,17 @@ hr {
   margin-right:160px;
 }
 
+.about-row-desktop {
+  margin-right: 520px; 
+  margin-left: 520px; 
+}
+
 .bio-img {
 	margin-bottom: 30px; 
+}
+
+.bio-p {
+  line-height: 1.23em; 
 }
 
 .hr_22 {
@@ -1921,8 +1930,8 @@ hr {
 /********ABOUT*****************/
 
 .hr-head {
-	margin-right: 390px; 
-	margin-left: 390px; 
+	margin-right: 220px!important; 
+	margin-left: 200px!important; 
 }
 
 .about-row-desktop{
@@ -1940,8 +1949,8 @@ hr {
 /********SERVICES*****************/
 
 .hr-ser {
-  margin-right: 900px; 
-  margin-left: 900px; 
+  margin-right: 730px!important; 
+  margin-left: 730px!important; 
 }
 
 /********SERVICES 2*****************/
@@ -1998,16 +2007,16 @@ hr {
 }
 
 .hr-indus {
-  margin-left: 820px; 
-  margin-right: 820px; 
+  margin-left: 650px; 
+  margin-right: 650px; 
 }
 
 
 /********INDUSTRY*****************/
 
 .hr-faqq {
-  margin-right: 570px; 
-  margin-left: 570px; 
+  margin-right: 730px!important; 
+  margin-left: 730px!important; 
 }
 
 	}
