@@ -912,7 +912,7 @@ padding-left: 0;
 .art {
   height: 55px;
   padding: 0; 
-  padding-right:10px;   
+ /* padding-right:10px; */  
 }
 
 
@@ -929,6 +929,7 @@ padding-left: 0;
 
   .art-logo-p {
     padding: 3px; 
+    padding-right: 10px; 
   }
 
 
