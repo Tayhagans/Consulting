@@ -632,6 +632,10 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 /************CONTACT SECTION***********/
 
+.alert {
+  display: none; 
+}
+
 #contact h2 {
   color: #fff; 
   font-family: 'Work Sans', sans-serif;
