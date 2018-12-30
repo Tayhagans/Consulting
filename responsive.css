@@ -629,10 +629,10 @@ p {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
-  	.about-row {
+ /* 	.about-row {
   		margin-left: 250px!important; 
   		margin-right: 250px!important; 
-  	}
+  	}*/
 
   	.sub-p {
 	margin-left: 40px!important; 
@@ -2021,6 +2021,15 @@ hr {
 
 	}
 
+  /*************************Medium Desk TOP Break Point **************************************/
+
+@media screen and (min-width: 1366px)  {
+
+.about-row {
+  margin-left: 
+}
+
+}
 
 	/*************************Large Desk Top Break Point **************************************/
 
