@@ -702,9 +702,9 @@ margin-top: 45px;
     text-align: left;   
 }
 
-p {
+/*p {
     text-align:justify ;  
- }  
+ }  */
 
  .biosectionpic {
      
@@ -2025,5 +2025,30 @@ hr {
 	/*************************Large Desk Top Break Point **************************************/
 
 @media screen and (min-width: 1920px) {
+
+  .about-row {
+    margin-left: 600px; 
+    margin-right: 600px; 
+  }
+
+  .hr-head {
+    margin-right: 300px!important; 
+    margin-left: 300px!important; 
+  }
+
+  .hr-ser {
+    margin-right: 910px!important; 
+    margin-left: 910px!important; 
+  }
+
+  .hr-indus {
+    margin-left: 830px!important; 
+    margin-right: 830px!important; 
+  }
+
+  .hr-faqq {
+    margin-right: 910px!important; 
+    margin-left: 910px!important; 
+  }
   
 }
