@@ -1930,7 +1930,7 @@ hr {
 /********ABOUT*****************/
 
 .hr-head {
-	margin-right: 220px!important; 
+	margin-right: 200px!important; 
 	margin-left: 200px!important; 
 }
 
@@ -2028,6 +2028,11 @@ hr {
 .about-row {
   margin-left: 350px; 
   margin-right: 350px; 
+}
+
+.hr-head {
+  margin-right: 300px!important; 
+  margin-left: 300px!important; 
 }
 
 }
