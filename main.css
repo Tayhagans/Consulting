@@ -632,9 +632,16 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 /************CONTACT SECTION***********/
 
-.alert {
-  display: none; 
-}
+.alert{
+    text-align: center; 
+    padding: 10px; 
+    background: #fff; 
+    color: #000;
+    opacity: .6;
+    margin-bottom: 10px;
+   
+   /* display: none;*/ 
+} 
 
 #contact h2 {
   color: #fff; 

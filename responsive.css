@@ -1268,6 +1268,12 @@ line-height: 55px;
   /*color: #fff; */
 }
 
+.alert{
+    margin-right: 660px;
+    margin-left: 660px;  
+   /* display: none;*/ 
+}
+
 /**********COACHING************/
 
 .ser-div h3 {
