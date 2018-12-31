@@ -1274,6 +1274,7 @@ line-height: 55px;
    /* display: none;*/ 
 }
 
+
 /**********COACHING************/
 
 .ser-div h3 {
@@ -2106,6 +2107,11 @@ hr {
     margin-right: 660px;
     margin-left: 660px;  
    /* display: none;*/ 
+}
+
+.alert-1 {
+ margin-right: 450px; 
+ margin-left: 450px;  
 }
   
 }
