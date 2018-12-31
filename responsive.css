@@ -1273,6 +1273,10 @@ line-height: 55px;
     margin-left: 360px;  
    /* display: none;*/ 
 }
+.alert-1 {
+ margin-right: 250px; 
+ margin-left: 250px;  
+}
 
 
 /**********COACHING************/
@@ -2051,6 +2055,11 @@ hr {
     margin-right: 460px;
     margin-left: 460px;  
    /* display: none;*/ 
+}
+
+.alert-1 {
+ margin-right: 350px; 
+ margin-left: 350px;  
 }
 
 
