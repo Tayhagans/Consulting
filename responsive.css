@@ -2046,6 +2046,11 @@ hr {
   margin-right: 300px; 
 }
 
+.alert{
+    margin-right: 460px;
+    margin-left: 460px;  
+   /* display: none;*/ 
+}
 
 
 }
@@ -2096,5 +2101,11 @@ hr {
     margin-right: 910px!important; 
     margin-left: 910px!important; 
   }
+
+  .alert{
+    margin-right: 660px;
+    margin-left: 660px;  
+   /* display: none;*/ 
+}
   
 }
