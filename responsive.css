@@ -728,8 +728,12 @@ p {
 
 /*************SMALL LAB TOP********************/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
 
+.about-row {
+  margin-left: 100px; 
+  margin-right: 100px; 
+}
 
 }
 
@@ -761,8 +765,8 @@ margin-top: 45px;
 } 
 
 .about-row {
-	margin-left: 200px;
-	margin-right: 200px; 
+	margin-left: 250px;
+	margin-right: 250px; 
 }
 
 
@@ -934,7 +938,7 @@ h2 {
 .mar-about {
    margin-right: initial; 
   margin-left: initial; 
-  background:   #808080; 
+  background:#808080; 
   height: 300px; 
 
 
