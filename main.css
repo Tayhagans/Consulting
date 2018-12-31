@@ -639,8 +639,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
     color: #000;
     opacity: .6;
     margin-bottom: 10px;
-   
-   /* display: none;*/ 
+   display: none;
 } 
 
 #contact h2 {
