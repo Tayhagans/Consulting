@@ -219,6 +219,33 @@
 
 }
 
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #faqs h2 {
+      font-size: 15px; 
+    }
+
+    #contact h2 {
+      font-size: 15px; 
+    }
+
+    #about h2 {
+      font-size: 15px; 
+    }
+
+    #industry h2 {
+      font-size: 15px; 
+    }
+
+    .ser-head-1 {
+      font-size: 15px; 
+    }
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Landscape */
@@ -375,13 +402,30 @@ p {
 .hr-head {
   margin-right: 170px; 
   margin-left: 170px; 
+  display: none!important; 
 }
 
 .hr-faqq {
   margin-right: 200px; 
   margin-left: 200px; 
+  display: none!important; 
 }
 
+.ser-head-1 {
+  font-size: 30px!important; 
+}
+
+#monials h2 {
+  font-size: 30px!important; 
+}
+
+.indi-sec1 h2 {
+  font-size: 30px!important; 
+}
+
+#contact h2 {
+  font-size: 30px!important; 
+}
 
 .hr-con {
   margin-left: 330px; 
@@ -400,6 +444,14 @@ p {
 .hr_5 {
 	margin-right: 315px; 
 	margin-left: 315px; 
+}
+
+.hr-ser {
+  display: none!important; 
+}
+
+.hr-indus {
+  display: none!important; 
 }
 
 .p-1 {
@@ -451,6 +503,10 @@ display: cover;
 
 }
 
+.ser-head {
+  font-size: 28px!important; 
+}
+
 .carousel-head {
   font-size: 50px; 
 }
@@ -479,17 +535,22 @@ display: cover;
 
 .hr-head {
   margin-left: 350px!important; 
-  margin-right: 350px!important; 
+  margin-right: 350px!important;
+  display: none; 
+ 
 }
 
 .hr-indus {
   margin-left: 380px!important; 
-  margin-right: 380px!important; 
+  margin-right: 380px!important;
+  display: none!important; 
 }
 
 .hr-faqq {
   margin-right: 280px!important; 
   margin-left: 280px!important; 
+  display: none; 
+  
 }
 
 #faqs h2 {
@@ -506,11 +567,11 @@ display: cover;
 }
 
 #about h2 {
-	font-size: 40px!important; 
+	font-size: 28px!important; 
 }
 
 #contact h2 {
-	font-size: 40px!important;
+	font-size: 28px!important;
 }
 
 p {
@@ -542,6 +603,14 @@ p {
 
 .text {
   text-align: left!important; 
+}
+
+#monials h2 {
+  font-size: 28px!important; 
+}
+
+.indi-sec1 h2 {
+  font-size: 28px!important; 
 }
 
 }
@@ -602,11 +671,13 @@ p {
 .hr-faqq {
   margin-right: 280px!important; 
   margin-left: 280px!important; 
+  display: none; 
 }
 
 .hr-indus {
   margin-left: 370px!important; 
   margin-right: 370px!important; 
+  display: none!important; 
 }
 
 .bio-img {
@@ -615,6 +686,20 @@ p {
 
 .foot-row p {
 	text-align: center!important;
+}
+
+.hr-ser {
+  margin-left: 100px!important; 
+  margin-right: 100px!important; 
+  display: none; 
+}
+
+.hr-head {
+  display: none; 
+}
+
+#about h2 {
+  font-size: 30px!important; 
 }
 
 
