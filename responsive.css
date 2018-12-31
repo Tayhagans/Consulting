@@ -1384,6 +1384,10 @@ line-height: 55px;
   margin-top: initial; 
 }
 
+.text {
+  text-align: left; 
+}
+
 /**********CONSULTATION************/
 .consul-row{
   background-color: #000;  

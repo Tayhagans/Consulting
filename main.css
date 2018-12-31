@@ -406,6 +406,10 @@ a:hover {
 .ser-div h3 {
   margin-top: 65px; 
 }
+
+.text {
+  text-align: justify;
+}
 /***********PUBLICATIONS*******************/
 
 .pub-title {
