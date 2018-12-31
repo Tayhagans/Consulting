@@ -2037,6 +2037,22 @@ hr {
 
 }
 
+ /*************************Medium Desk TOP Break Point 2**************************************/
+
+@media screen and (min-width: 1600px)  {
+
+.about-row {
+  margin-left: 400px; 
+  margin-right: 400px; 
+}
+
+.hr-head {
+  margin-right: 320px!important; 
+  margin-left: 320px!important; 
+}
+
+}
+
 	/*************************Large Desk Top Break Point **************************************/
 
 @media screen and (min-width: 1920px) {
