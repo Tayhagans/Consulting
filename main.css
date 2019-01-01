@@ -124,9 +124,6 @@ right: 10%;
   text-align: left;
   margin-top: 20px; 
   color: grey;
-  word-break: break-all;
-
-
 }
 
 .bio-img {
@@ -163,8 +160,7 @@ right: 10%;
     /*font-size: 15px; */
     margin-bottom: 20px;
     text-align: left; 
-    word-break: break-all;
-  }
+    }
 
   .art-logo {
     margin-bottom: 10px; 
