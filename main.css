@@ -115,13 +115,13 @@ right: 10%;
   font-size: 20px; 
 }
 
-.about-row{
+/*.about-row{
   margin-left:5px;  
   margin-right:5px;
-}
+}*/
 
 .bio-p {
-  text-align: justify;
+  text-align: left;
   margin-top: 20px; 
   color: grey;
 
@@ -130,7 +130,14 @@ right: 10%;
 
 .bio-img {
   height: 250px; 
-  width: fit-content;
+  /*width: fit-content;*/
+  width: auto; 
+  float: right; 
+}
+
+.biosectionpic {
+  padding-left: 0; 
+  padding-right: 0; 
 }
 
 .hr_2 {
@@ -145,8 +152,8 @@ right: 10%;
 }
 
 .hr-head {
-    margin-right: 100px; 
-    margin-left: 100px; 
+    margin-right: 135px;
+    margin-left: 135px; 
     margin-bottom: 15px; 
     margin-top: 15px; 
   }
@@ -154,7 +161,7 @@ right: 10%;
   .p-1 {
     /*font-size: 15px; */
     margin-bottom: 20px;
-    text-align: justify; 
+    text-align: left; 
   }
 
   .art-logo {
@@ -285,6 +292,8 @@ color: #ff5733;
 .mar-about-1 {
     margin-right: 40px; 
   margin-left: 40px; 
+  padding-left:0; 
+  padding-right: 0; 
 }
 
 .btn-ser {
