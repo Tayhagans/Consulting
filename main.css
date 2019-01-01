@@ -793,6 +793,11 @@ hr {
     padding-left: 0!important; 
 }
 
+.bottom a {
+  color: #fff!important; 
+  text-decoration: none; 
+}
+
 .foot-row h3 {
   color: #b8b8b8; 
   letter-spacing: 3px;
