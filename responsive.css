@@ -1413,11 +1413,15 @@ line-height: 55px;
   margin-right:60px;
 }
 
-i {
+/*i {
   margin-top: 40px; 
   font-size: 50px;
   margin-bottom: 20px; 
   color: #ff5733;   
+}*/
+
+i {
+  font-weight: lighter;
 }
 
 .indi-sec1 {
