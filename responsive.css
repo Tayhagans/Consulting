@@ -24,9 +24,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
-  	.carousel-caption {
-  		top: 100px; 
-  	}
+    .carousel-caption {
+      top: 100px; 
+    }
 
     .carousel-head {
       font-size: 35px; 
@@ -38,10 +38,10 @@
       margin-right: 7px; 
     }
 
-  /*	.about-row {
-  		margin-left: 60px; 
-  		margin-right: 60px; 
-  	}*/
+  /*  .about-row {
+      margin-left: 60px; 
+      margin-right: 60px; 
+    }*/
 
     .about-photo {
   
@@ -64,10 +64,10 @@
 
   
 
-  	.sub-p {
-  		margin-left: 30px; 
-  		margin-right: 30px; 
-  	}
+    .sub-p {
+      margin-left: 30px; 
+      margin-right: 30px; 
+    }
 
     .pub-p {
       margin-left: 60px; 
@@ -79,18 +79,18 @@
       margin-left: 220px; 
     }
 
-  	.hr_2 {
-  		display: none; 
-  	}
+    .hr_2 {
+      display: none; 
+    }
 
-  	.indi-sec p {
-  		margin-left: 30px; 
-  		margin-right: 30px; 
-  	}
+    .indi-sec p {
+      margin-left: 30px; 
+      margin-right: 30px; 
+    }
 
-  	.indi-bom {
-  		margin-bottom: 40px; 
-  	}
+    .indi-bom {
+      margin-bottom: 40px; 
+    }
 
     hr {
       margin-right: 300px; 
@@ -101,19 +101,19 @@
   margin-right: 300px; 
   margin-left: 300px; 
 }
-  	.hr_5 {
-  		margin-right: 290px; 
-  		margin-left: 290px; 
-  	}
+    .hr_5 {
+      margin-right: 290px; 
+      margin-left: 290px; 
+    }
 
-  	.hr-con {
-  		margin-right: 300px; 
-  		margin-left: 300px; 
-  	}
+    .hr-con {
+      margin-right: 300px; 
+      margin-left: 300px; 
+    }
 
-  	.navbar-toggle {
-  		float: right; 
-  	}
+    .navbar-toggle {
+      float: right; 
+    }
 
 .row3 {
   margin-left: 100px; 
@@ -131,9 +131,9 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
-	.navbar-toggle {
-  		float: right; 
-  	}
+  .navbar-toggle {
+      float: right; 
+    }
 
     .about-photo {
   
@@ -161,15 +161,15 @@
       margin-right: 60px; 
     }
 
-  	  	.about-row {
-  		margin-left: 90px; 
-  		margin-right: 90px; 
-  	}
+        .about-row {
+      margin-left: 90px; 
+      margin-right: 90px; 
+    }
 
-  	  	.sub-p {
-  		margin-left: 30px; 
-  		margin-right: 30px; 
-  	}
+        .sub-p {
+      margin-left: 30px; 
+      margin-right: 30px; 
+    }
 
     .hr-head {
       margin-right: 300px; 
@@ -177,9 +177,9 @@
     }
 
 
-  	 	.hr_2 {
-  		display: none; 
-  	}
+      .hr_2 {
+      display: none; 
+    }
 
     .hr-faqq {
   margin-right: 320px; 
@@ -191,24 +191,24 @@
       margin-left: 320px; 
     }
 
-  	.indi-sec p {
-  		margin-left: 30px; 
-  		margin-right: 30px; 
-  	}
+    .indi-sec p {
+      margin-left: 30px; 
+      margin-right: 30px; 
+    }
 
-  	.indi-bom {
-  		margin-bottom: 40px; 
-  	}
+    .indi-bom {
+      margin-bottom: 40px; 
+    }
 
-  	.hr_5 {
-  		margin-right: 290px; 
-  		margin-left: 290px; 
-  	}
+    .hr_5 {
+      margin-right: 290px; 
+      margin-left: 290px; 
+    }
 
-  	hr {
-  		margin-right: 330px; 
-  		margin-left: 330px; 
-  	}
+    hr {
+      margin-right: 330px; 
+      margin-left: 330px; 
+    }
 
       .art-logo {
 /*    margin-bottom: 10px; */
@@ -255,9 +255,9 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
-  	.box {
-  		padding: 30px!important; 
-  	}
+    .box {
+      padding: 30px!important; 
+    }
 .about-row{
   margin-left:5px!important;  
   margin-right:5px!important;
@@ -310,12 +310,12 @@ display: cover;
 }
 
 .indi-sec p {
-	text-align: center; 
+  text-align: center; 
 } 
 
 .indi-sec:hover {
-	border-bottom: none!important; 
-	border-top: none!important; 
+  border-bottom: none!important; 
+  border-top: none!important; 
 
     transition: none!important;
    
@@ -324,12 +324,12 @@ display: cover;
 }
 
 .button-form {
-	margin-right: 0!important; 
-	margin-left: 0!important; 
+  margin-right: 0!important; 
+  margin-left: 0!important; 
 }
 
 p {
-	text-align: center!important; 
+  text-align: center!important; 
 }
 
 .p-1 {
@@ -337,15 +337,15 @@ p {
 }
 
 .bio-p {
-	text-align: justify!important;
+  text-align: justify!important;
 }
 
 .bio-img {
-	margin-bottom: 0!important; 
+  margin-bottom: 0!important; 
 }
 
 .sub-p {
-	top: -80px!important; 
+  top: -80px!important; 
 }
 
 .photo-row {
@@ -369,7 +369,7 @@ p {
   and (-webkit-min-device-pixel-ratio: 1) {
 
 .carousel-caption {
-	padding-bottom: 80px; 
+  padding-bottom: 80px; 
 }
 
 .art-logo {
@@ -378,15 +378,15 @@ p {
 }
 
 .carousel-head {
-	font-size: 54px; 
+  font-size: 54px; 
 }
 
 .carousel-p {
-	font-size: 30px; 
+  font-size: 30px; 
 }
 
 .carousel-btn {
-	padding: 15px; 
+  padding: 15px; 
 
 }
 
@@ -433,17 +433,17 @@ p {
 }
 
 .hr_2 {
-	margin-left: 300px; 
-	margin-right: 300px; 
+  margin-left: 300px; 
+  margin-right: 300px; 
 }
 
 .hr_22 {
-	display: none; 
+  display: none; 
 }
 
 .hr_5 {
-	margin-right: 315px; 
-	margin-left: 315px; 
+  margin-right: 315px; 
+  margin-left: 315px; 
 }
 
 .hr-ser {
@@ -567,38 +567,38 @@ display: cover;
 }
 
 #about h2 {
-	font-size: 28px!important; 
+  font-size: 28px!important; 
 }
 
 #contact h2 {
-	font-size: 28px!important;
+  font-size: 28px!important;
 }
 
 p {
-	text-align: center!important; 
+  text-align: center!important; 
 }
 
 .button-form {
-	margin-right: 0!important; 
-	margin-left: 0!important; 
+  margin-right: 0!important; 
+  margin-left: 0!important; 
 }
 
 .copy {
-	text-align: left!important; 
+  text-align: left!important; 
 }
 
 .hr_2 {
-	margin-left: 390px!important; 
-	margin-right: 390px!important; 
+  margin-left: 390px!important; 
+  margin-right: 390px!important; 
 }
 
 .hr_5 {
-	margin-right: 460px!important; 
-	margin-left: 460px!important; 
+  margin-right: 460px!important; 
+  margin-left: 460px!important; 
 }
 
 .bio-p {
-	text-align: justify!important;
+  text-align: justify!important;
 }
 
 .text {
@@ -628,7 +628,7 @@ p {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
-  	.carousel-text {
+    .carousel-text {
   position: absolute;
   bottom: 20%!important; 
   right: 50%; 
@@ -681,11 +681,11 @@ p {
 }
 
 .bio-img {
-	margin-bottom: 0!important; 
+  margin-bottom: 0!important; 
 }
 
 .foot-row p {
-	text-align: center!important;
+  text-align: center!important;
 }
 
 .hr-ser {
@@ -714,14 +714,14 @@ p {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
- /* 	.about-row {
-  		margin-left: 250px!important; 
-  		margin-right: 250px!important; 
-  	}*/
+ /*   .about-row {
+      margin-left: 250px!important; 
+      margin-right: 250px!important; 
+    }*/
 
-  	.sub-p {
-	margin-left: 40px!important; 
-	margin-right: 40px!important; 
+    .sub-p {
+  margin-left: 40px!important; 
+  margin-right: 40px!important; 
 }
 
 }
@@ -729,12 +729,10 @@ p {
 /*************SMALL LAB TOP********************/
 
 /*@media screen and (max-width: 1024px) {
-
 .about-row {
   margin-left: 100px; 
   margin-right: 100px; 
 }
-
 }
 */
 /*LAB TOP BREAK POINT*/
@@ -743,14 +741,14 @@ p {
 
 @media screen and (min-width: 769px) {
 
-	.hr-head {
-		margin-right: 320px; 
-		margin-left: 320px; 
-	}
+  .hr-head {
+    margin-right: 320px; 
+    margin-left: 320px; 
+  }
 
 
 .about-photo {
-	margin-bottom: 20px; 
+  margin-bottom: 20px; 
 margin-top: 45px; 
   height: 370px;
     float: left; 
@@ -765,8 +763,8 @@ margin-top: 45px;
 } 
 
 .about-row {
-	margin-left: 250px;
-	margin-right: 250px; 
+  margin-left: 250px;
+  margin-right: 250px; 
 }
 
 
@@ -813,7 +811,7 @@ margin-top: 45px;
 
 
 
-	.jumbotron {
+  .jumbotron {
 /*     background-image: url("http://i64.tinypic.com/v2wcoh.jpg"); */
        /* background-image: url("IMG_2095.JPG");*/
             
@@ -920,7 +918,7 @@ h2 {
 
  
 #about h2 {
-	font-size: 50px; 
+  font-size: 50px; 
   margin-top: 55px; 
 }
 
@@ -930,8 +928,8 @@ h2 {
 }*/
 
 .p-1 {
-	text-align: center!important;
-	font-size: 16px; 
+  text-align: center!important;
+  font-size: 16px; 
   margin-bottom: initial;
 }
 
@@ -951,12 +949,12 @@ h2 {
 }
 
 .pub-row {
-	margin-left: 80px; 
-	margin-right: 80px; 
+  margin-left: 80px; 
+  margin-right: 80px; 
 }
 
 .bio-img {
-	width: 200px;
+  width: 200px;
   margin-top: 0!important; 
   height: 300px; 
 }
@@ -973,7 +971,7 @@ h2 {
 }
 
 .hr_2 {
-	display: block;
+  display: block;
     border: 0;
     height: 0; /* Firefox... */
     box-shadow: 0 0 10px 1px #ff5733;
@@ -1045,7 +1043,7 @@ padding-left: 0;
 }
 
 .ser-head-1 {
-	padding: initial; 
+  padding: initial; 
  /* margin-top: 0!important;*/
   font-size: 50px; 
    
@@ -1149,33 +1147,33 @@ line-height: 55px;
 
 
 .btn-ser {
-	margin-top: 50px;
+  margin-top: 50px;
   background-color: transparent;
   border: 1px solid #ff5733!important;
   border-radius: 3px!important;   
-/*	background-color: #ff5733;*/
-	opacity: .8; 
-	color: #fff; 
-	/*border-radius: 10px!important; */
+/*  background-color: #ff5733;*/
+  opacity: .8; 
+  color: #fff; 
+  /*border-radius: 10px!important; */
 
 }
 
 .btn-ser-row {
-	display: none; 
+  display: none; 
 }
 
 .box:hover .btn-ser-row {
-	display: initial!important;
-	margin-left: 190px; 
-	margin-right: 190px;
+  display: initial!important;
+  margin-left: 190px; 
+  margin-right: 190px;
 }
 
 .btn-ser:hover {
 
-	background-color: #ff5733;
-	opacity: .8;
-	/*letter-spacing: 3px;  */
-	color: #fff; 
+  background-color: #ff5733;
+  opacity: .8;
+  /*letter-spacing: 3px;  */
+  color: #fff; 
 }
 
 .box:hover {
@@ -1212,19 +1210,19 @@ line-height: 55px;
 /************SERVICES SECTION 2***********/
 
 .new-service {
-	height: 400px; 
-	 display: block;
+  height: 400px; 
+   display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
 .service2 p {
-	margin-top: 40px; 
+  margin-top: 40px; 
 }
 
 .p-head {
-	font-size: 20px; 
+  font-size: 20px; 
   text-align: center; 
 }
 
@@ -1352,7 +1350,7 @@ line-height: 55px;
   text-align: center; 
 }
 .centered-ser {
-	font-size: 45px!important; 
+  font-size: 45px!important; 
 }
 
 #contact_1 {
@@ -1398,9 +1396,9 @@ line-height: 55px;
 
 
 .hr-indus {
-	display: block;
-	margin-left: 520px; 
-	margin-right: 520px; 
+  display: block;
+  margin-left: 520px; 
+  margin-right: 520px; 
 }
 
 #industry h2 {
@@ -1425,9 +1423,9 @@ i {
 }
 
 .indi-sec1 {
-	color: #000!important; 
-	/*background-color: #000!important;*/
-	background-image: none; 
+  color: #000!important; 
+  /*background-color: #000!important;*/
+  background-image: none; 
 }
 
 .indi-sec1 h2 {
@@ -1439,7 +1437,6 @@ i {
  /* border-top: 1px solid #000;
   border-bottom: 1px solid #000; 
  
-
     transition: .8s ease;
    
     padding: 10px; 
@@ -1449,11 +1446,11 @@ i {
 
 .indi-photo {
 
-	height: 300px; 
+  height: 300px; 
 }
 
 .tint {
-	display: initial;
+  display: initial;
   position: relative;
   float: left;
   width: 100%; 
@@ -1517,20 +1514,20 @@ i {
 
 
 .tint-div {
-	padding: 0; 
+  padding: 0; 
 }
 
 .photo-row {
-	margin-right: 200px; 
-	margin-left: 200px; 
+  margin-right: 200px; 
+  margin-left: 200px; 
 }
 
 .fas {
-	display: none; 
+  display: none; 
 }
 
 .icon-t {
-	display: none; 
+  display: none; 
 }
 
 .wrap {
@@ -1561,7 +1558,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 }
 
 .monials-row {
-	height: auto; 
+  height: auto; 
  /*  margin-left:60px;  
   margin-right:60px; */
 }
@@ -1609,8 +1606,8 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 }
 
 .hr-faqq {
-	margin-left: 590px; 
-	margin-right: 590px; 
+  margin-left: 590px; 
+  margin-right: 590px; 
 }
 
 .faqsP {
@@ -1633,13 +1630,11 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
   display: inline-block;
   cursor: pointer;
   font-weight: bold;
-
 }*/
 /*.faq_answer_container {
   height: 0px;
   overflow: hidden;
   padding: 0px;
-
 }*/
 
 .hr_3 {
@@ -1668,8 +1663,8 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 .hr-con {
   display: none; 
-	/*margin-left: 590px; 
-	margin-right: 590px*/
+  /*margin-left: 590px; 
+  margin-right: 590px*/
 }
 
 #contact {
@@ -1699,7 +1694,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);
 
 #contact h2 {
   font-weight: lighter!important;
-	font-size: 50px;
+  font-size: 50px;
   color: #fff; 
  
 }
@@ -1735,7 +1730,7 @@ box-shadow:none !important;
 }
 
 .hr_5 {
-	display: block;
+  display: block;
    border: 0;
     height: 0; /* Firefox... */
     box-shadow: 0 0 10px 1px #ff5733;
@@ -1796,7 +1791,6 @@ width: 347px;
   color: #000!important;
   font-size: 20px; 
   margin: 10px;  
-
 }*/
 
 .arrow {
@@ -1845,7 +1839,7 @@ hr {
 }*/
 
 .copy {
-	font-size: smaller;
+  font-size: smaller;
   text-align: left;
   margin-top: 30px;
   margin-left: 6px;   
@@ -1949,9 +1943,7 @@ hr {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 10px;
-
 }
-
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1973,7 +1965,7 @@ hr {
 
 @media screen and (min-width: 1281px)  {
 
-	.carousel-inner img {
+  .carousel-inner img {
   width: 3000px; 
   height: 1020px!important; 
 }
@@ -1997,7 +1989,7 @@ hr {
 }
 
 .bio-img {
-	margin-bottom: 30px; 
+  margin-bottom: 30px; 
 }
 
 .bio-p {
@@ -2005,52 +1997,52 @@ hr {
 }
 
 .hr_22 {
-	margin-left: 820px; 
-	margin-right: 820px; 
+  margin-left: 820px; 
+  margin-right: 820px; 
 }
 
 
 .hr_5 {
-	margin-left: 880px; 
-	margin-right: 880px; 
+  margin-left: 880px; 
+  margin-right: 880px; 
 }
 
 .contact-row {
-	margin-left: 280px; 
-	margin-right: 280px; 
+  margin-left: 280px; 
+  margin-right: 280px; 
 }
 
 hr {
 
-	margin-left: 285px; 
-	margin-right: 285px; 
+  margin-left: 285px; 
+  margin-right: 285px; 
 
 }
 
 .box {
-	margin-right: 60px; 
-	margin-left: 60px; 
+  margin-right: 60px; 
+  margin-left: 60px; 
 }
 
 .sub-p {  
-	margin-right: 100px; 
-	margin-left: 100px; 
+  margin-right: 100px; 
+  margin-left: 100px; 
 }
 
 #services {
-	background-size: cover; 
+  background-size: cover; 
 }
 
 .about-row {
-	margin-left: 320px; 
-	margin-right: 320px; 
+  margin-left: 320px; 
+  margin-right: 320px; 
 }
 
 /********ABOUT*****************/
 
 .hr-head {
-	margin-right: 200px!important; 
-	margin-left: 200px!important; 
+  margin-right: 200px!important; 
+  margin-left: 200px!important; 
 }
 
 .about-row-desktop{
@@ -2061,8 +2053,8 @@ hr {
 /*********PUBLICATIONS**************/
 
 .pub-row {
-	margin-left: 300px; 
-	margin-right: 300px; 
+  margin-left: 300px; 
+  margin-right: 300px; 
 }
 
 /********SERVICES*****************/
@@ -2109,13 +2101,13 @@ hr {
 
 
 .contact-row {
-	margin-right: 0; 
-	margin-left: 0; 
+  margin-right: 0; 
+  margin-left: 0; 
 }
 
 .hr-con {
-	margin-right: 890px; 
-	margin-left: 890px; 
+  margin-right: 890px; 
+  margin-left: 890px; 
 }
 
 /********INDUSTRY*****************/
@@ -2138,7 +2130,7 @@ hr {
   margin-left: 730px!important; 
 }
 
-	}
+  }
 
   /*************************Medium Desk TOP Break Point **************************************/
 
@@ -2191,7 +2183,7 @@ hr {
 
 }
 
-	/*************************Large Desk Top Break Point **************************************/
+  /*************************Large Desk Top Break Point **************************************/
 
 @media screen and (min-width: 1920px) {
 
